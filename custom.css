@@ -1,0 +1,11 @@
+.background-img{
+	background-image: url("https://images4.alphacoders.com/665/665092.jpg");
+
+}
+.container{
+	font-family: Verdana;
+	font-size: 20;
+	color: grey;
+	display: block;
+	
+}

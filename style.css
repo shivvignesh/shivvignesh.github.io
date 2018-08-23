@@ -1,0 +1,124 @@
+body{
+	font-family: 'Arial',san-serif;
+	margin: 0;
+	overflow: scroll;
+	border: 5px;
+	background-color: #cccccc;
+}
+
+
+
+.header{
+	background-image: url('https://images4.alphacoders.com/665/665092.jpg');
+			width: 100%;
+			height: 100vh;
+			padding: 50px;
+			background-size: cover; 
+			position: relative;
+}
+
+.scroll{
+	position: relative;
+	size: 10;
+	top:200px;
+	left: 300px;
+	font-size: 20;
+	font-family: cursive;
+	color: grey;
+
+}
+
+.about-me{
+	margin-top: 20px;
+	padding: 5px;
+	border: 5px;
+	font-family: Verdana;
+	
+	width: 50%;
+	height: 60%;
+	display: block;
+
+}
+.container-fluid{
+
+	background-color: grey;
+	padding: 15px;
+	margin-top: 5px;
+
+}
+
+.w3-two-third{
+	margin-top: 15px;
+	padding: 20px;
+	font-family: Georgia;
+	font-size: 30;
+	
+	width: 50%;
+	height: 50%;
+}
+
+.box{
+	margin-top: 30px;
+	padding: 30px
+	width: 100%;
+	height: 100%;
+	background-color:#336666;
+	border: 3px solid #555;
+}
+
+.details{
+	display: block;
+	padding: 20px;
+	margin-top: 15px;
+	width: 80%;
+
+}
+
+.education{
+	background-color: #6699CC;
+	text-align: center;
+	margin: auto;
+	width: 80%;
+	border-radius: 15px;
+
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+.circle {
+ display: inline;
+ background-color: transparent;
+ border-radius: 70%;
+ height: 230px;
+ width: 230px;
+ margin: 20px;
+ 
+
+ 
+}
+
+
+
+.medium-bubble{
+	padding: 20px;
+	margin-top: 20px;
+	display: inline;
+
+
+}
+
+.bottom{
+	padding:20px;
+	margin-top: 10px;
+	background-image: url("https://newevolutiondesigns.com/images/freebies/blue-iphone-wallpaper-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:50vh;
+	
+}

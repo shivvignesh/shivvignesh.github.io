@@ -1,0 +1,13 @@
+body{
+	background-image: url('https://cdn.pixabay.com/photo/2018/08/09/10/46/phone-3594206_960_720.jpg');
+	background-size:cover;
+}
+
+.header{
+	width: 60%;
+			height: 70%;
+			padding: 50px;
+			margin: auto;
+			background-size: cover;
+			vertical-align: middle;
+}

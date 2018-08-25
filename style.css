@@ -3,13 +3,13 @@ body{
 	margin: 0;
 	overflow: scroll;
 	border: 5px;
-	background-color: #cccccc;
+	background-color: #8395a7;
 }
 
 
 
 .header{
-	background-image: url('https://images4.alphacoders.com/665/665092.jpg');
+	background-image: url('http://kb4images.com/images/motivational-wallpapers-hd/36755457-motivational-wallpapers-hd.jpg');
 			width: 100%;
 			height: 100vh;
 			padding: 50px;
@@ -39,9 +39,24 @@ body{
 	display: block;
 
 }
+.DivForHoverItem {
+    /*just so we can see it*/
+    height: 50px;
+    width: 300px;
+    
+}
+
+.HiddenText {
+    display: none;
+}
+
+.DivForHoverItem:hover .HiddenText {
+    display:block;
+}
+
 .container-fluid{
 
-	background-color: grey;
+	background-color: #0a3d62;
 	padding: 15px;
 	margin-top: 5px;
 
@@ -75,7 +90,7 @@ body{
 }
 
 .education{
-	background-color: #6699CC;
+	background-color: #1565C0;
 	text-align: center;
 	margin: auto;
 	width: 80%;
@@ -97,20 +112,25 @@ hr {
  height: 230px;
  width: 230px;
  margin: 20px;
- 
+  transition-property: background;
+	  transition-duration: 1s;
+	  transition-timing-function: linear;
 
  
 }
-
 
 
 .medium-bubble{
 	padding: 20px;
 	margin-top: 20px;
 	display: inline;
+	 
 
+	}
 
-}
+.circle:hover{
+	background-color: #0097e6;
+}	
 
 .bottom{
 	padding:20px;
